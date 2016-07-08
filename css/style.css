@@ -1,0 +1,150 @@
+body {
+  font-family:  Arial, Helvetica, sans-serif;
+}
+#content{
+  margin: 0 auto;
+
+}
+
+/*Typography*/
+li {
+    display: inline-block;
+    text-align: left;
+    padding: 10px 13px;
+}
+a{
+  color:#000;
+  text-decoration:none;
+}
+
+
+/*NAVIGATION*/
+#n-primary {
+  height:50px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#n-primary li a {
+  text-transform:uppercase;
+  font-size: 12px;
+}
+
+a:hover {
+  color:#A7C6E3;
+}
+
+#search {
+  float:right;
+}
+
+#search input {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  height:20px;
+  width:200px;
+  margin-top:8px;
+}
+
+/*FEATURE SECTION*/
+#feature {
+  height:250px;
+  background:linear-gradient(
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+      ), url('../assets/images/newyork.jpg') no-repeat center center;
+  width:100%;
+  padding-top:30px;
+}
+
+#feature h1, h2 {
+  text-align:center;
+  color:white;
+  font-weight:lighter;
+  margin:0px;
+}
+#feature h1 {
+  padding-top:50px;
+  font-size:40px;
+}
+
+/*SUPPORTING CONTENT*/
+#slider-title {
+  text-align:center;
+
+}
+
+#slider-title h1 {
+  font-weight:lighter;
+  margin-top:10px;
+  margin-bottom:5px;
+}
+
+.slider {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+span {
+    display: inline-block;
+    width: 33%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-right:0;
+    overflow: hidden;
+    vertical-align: text-top;
+    text-align:center;
+}
+span p {
+  text-align:center;
+}
+
+span h2 {
+  color:black;
+  font-weight:bold;
+}
+
+span img {
+  margin-top:30px;
+  margin-left:5px;
+}
+
+/*FOOTER*/
+
+.footer{
+  background:#171717;
+  color:#FFFFFF;
+  overflow:hidden;
+
+}
+
+.footer li {
+  display: inline-block;
+  text-align: left;
+}
+
+#logo {
+  background-color:#18A665;
+  padding:2px 0px;
+
+}
+
+ul {
+  margin:0px;
+  padding:0px;
+  width:1000px;
+  margin:0 auto;
+}
+
+#col-right {
+  float:right;
+  margin:0px;
+  padding:0px;
+}
+
+#col-left {
+  float:left;
+  margin:0px;
+  padding:0px;
+}
